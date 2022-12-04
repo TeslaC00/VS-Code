@@ -1,0 +1,5 @@
+p{background-color:#00aa00;color:#0000aa;border-top-style:solid;border-bottom-style:dashed;border-right-style:double;border-left-style:double;padding:10px;font-family:"Ink Free";font-weight:bold;font-style:italic;font-size:30px;border-width:10px;border-color:#222222;}
+#heading{font-size:40px;font-family:"MV Boli";text-align:center;text-decoration:underline wavy blue;border-style:solid;border-radius:15px;padding:10px;border-width:5px 10px;border-color:#ff0000;color:purple;border-top-color:#eef20a;border-bottom-color:#eef20a;}
+body{background-color:#46e7f2;font-size:25px;color:#ffffff;background:linear-gradient(#46e7f2,#333333);background-repeat:no-repeat;background-size:cover;background-position:center;background-attachment:fixed;text-decoration:underline #f542ef;}
+html{background-image:url(Actors.png);background-repeat: no-repeat;background-position:center;background-attachment:fixed;background-size:cover;color:#ffffff;text-decoration:underline yellow}
+body{font-family:'Pacifico', cursive;}

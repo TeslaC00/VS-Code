@@ -1,0 +1,11 @@
+html{font-size:18px;background-image:url(/Media/Anime\ Art\ 1.jpg);background-size:cover;background-attachment:fixed;margin:10px;}
+.heading{color:#fcf803;font-family: monospace;}
+.paragraph{color:#00ff44;font-family:"Ink Free";}
+#d1{background-image:linear-gradient(violet,indigo,blue,green,yellow,orange,red);border-style:solid;border-color:#000000;border-width:4px;padding:8px;}
+#p6{color:#000000}
+#p7{color:#ffffff}
+#p8{color:rgba(155,50,250,0.9)}
+#p9{color:#38024f;}
+#pre{color:#ffffff;font-family:"MV Boli";border:2px solid tomato;}
+a:link,a:visited{background-color:#f44336;color:#ffffff;padding:5px 10px;text-align:center}
+a:hover,a:active{background-color:#000000;color:#f5ee2f}
