@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 import java.text.*;
 class Excitel{
-
     public static void main(String []args) throws IOException{
      
         if(args.length == 0){
