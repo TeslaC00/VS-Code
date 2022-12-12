@@ -1,4 +1,4 @@
-html{font-size:18px;background-image:url(/Media/Anime\ Art\ 1.jpg);background-size:cover;background-attachment:fixed;margin:10px;}
+html{font-size:18px;background-image:url("C:/Vikas/VS Code/Codes/Media/Anime Art 1.jpg");background-size:cover;background-attachment:fixed;margin:10px;}
 .heading{color:#fcf803;font-family: monospace;}
 .paragraph{color:#00ff44;font-family:"Ink Free";}
 #d1{background-image:linear-gradient(violet,indigo,blue,green,yellow,orange,red);border-style:solid;border-color:#000000;border-width:4px;padding:8px;}
