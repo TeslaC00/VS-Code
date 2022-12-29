@@ -1,0 +1,3 @@
+Writing in file
+C
+Next Line
