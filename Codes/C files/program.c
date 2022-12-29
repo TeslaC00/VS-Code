@@ -1,10 +1,3 @@
-/*Write a program to create a menu for a library in which the following can be done.
-1 - Display book information
-2 - Add a new book
-3 - Display all the books in the library of a particular author
-4 - Display the number of books of a particular title
-5 - Display the total number of books in the library
-6 - Issue a book*/
 #include<stdio.h>
 #include<conio.h>
 #include<windows.h>
@@ -23,7 +16,6 @@ void totaltitle(void);
 void totalbooks(void);
 void issue(void);
 void give(void);
-int index=0;
 
 int main(){
 
@@ -54,17 +46,19 @@ int main(){
 
 void addBook(){
     system("cls");
+    int i=0;
     printf("Give the book info:\n");
     printf("Book ID: ");
-    scanf(" %d",&b[index].ID);
+    scanf(" %d",&b[i].ID);
     printf("Give the book Title: ");
-    scanf(" %s",b[index].title);
+    scanf(" %s",b[i].title);
     printf("Give the book's Author name: ");
-    scanf(" %s",b[index].author);
+    scanf(" %s",b[i].author);
     printf("Give the book's stock: ");
-    scanf(" %d",&b[index].stock);
-    b[index].flag=0;
-    index++;
+    scanf(" %d",&b[i].stock);
+    printf("Give the number of books issued: ");
+    scanf(" %d",&b[i].flag);
+    i++;
     printf("Book added succesfully!");
 }
 
@@ -122,5 +116,38 @@ void totalbooks(){
     printf("Total books in Library are %d",total);
 }
 
-void issue(){}
-void give(){}
+void issue(){
+    system("cls");
+    int temp,count=0;
+    printf("Give the book ID you want to issue: ");
+    scanf(" %d",&temp);
+    for(int i=0; i<15; i++){
+        if(temp==b[i].ID){
+            b[i].flag++;
+            b[i].stock--; count++;
+            printf("Book issued succesfully!");
+            break;
+        }
+    }
+    if(count==0){
+        printf("Book not found");
+    }
+}
+
+void give(){
+    system("cls");
+    int temp,count=0;
+    printf("Give the book ID you want to return: ");
+    scanf(" %d",&temp);
+    for(int i=0; i<15; i++){
+        if(temp==b[i].ID){
+            b[i].flag--;
+            b[i].stock++; count++;
+            printf("Book returned succesfully!");
+            break;
+        }
+    }
+    if(count==0){
+        printf("Book not found");
+    }
+}
